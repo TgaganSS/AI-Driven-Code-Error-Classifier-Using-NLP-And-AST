@@ -1,0 +1,3 @@
+#!/bin/sh
+echo "$@" >> "${GSC_SHIM_LOG:-/tmp/gsc_shim.log}"
+exec /usr/bin/g++ "$@"

@@ -1,0 +1,15 @@
+PyQt6>=6.4.0
+numpy>=1.21.0          # classifier inference (pure numpy - no scikit-learn needed at runtime)
+codecarbon>=2.3.0      # optional: energy tracking in the heal loop
+
+# Only needed to RE-TRAIN the classifier (python src/error_classifier.py):
+#   pip install scikit-learn scipy
+
+# ── System (non-pip) dependencies ───────────────────────────────────────────
+#   g++      required: compilation, linking, nm/binutils (forbidden-symbol gate)
+#   clang++  optional: AST Explorer / AST context for explanations
+#            (Ubuntu: sudo apt install g++ clang binutils)
+#
+# The shipped classifier (data/error_classifier.model.json + .npz) is a plain
+# JSON/NumPy artifact with a SHA-256 integrity check.  No pickle/joblib file is
+# ever loaded, so it is independent of the installed scikit-learn version.

@@ -1,0 +1,517 @@
+[
+ {
+  "message": "expected ';' before 'return'",
+  "type": "error",
+  "expected": "syntax_error"
+ },
+ {
+  "message": "expected ')' before ';' token",
+  "type": "error",
+  "expected": "syntax_error"
+ },
+ {
+  "message": "expected primary-expression before ')' token",
+  "type": "error",
+  "expected": "syntax_error"
+ },
+ {
+  "message": "stray '\\342' in program",
+  "type": "error",
+  "expected": "syntax_error"
+ },
+ {
+  "message": "expected unqualified-id before 'else'",
+  "type": "error",
+  "expected": "syntax_error"
+ },
+ {
+  "message": "expected '}' at end of input",
+  "type": "error",
+  "expected": "missing_closing_brace"
+ },
+ {
+  "message": "a function-definition is not allowed here before '{' token",
+  "type": "error",
+  "expected": "missing_closing_brace"
+ },
+ {
+  "message": "'cout' was not declared in this scope; did you mean 'std::cout'?",
+  "type": "error",
+  "expected": "name_resolution"
+ },
+ {
+  "message": "'vector' does not name a type",
+  "type": "error",
+  "expected": "name_resolution"
+ },
+ {
+  "message": "'struct Foo' has no member named 'bar'",
+  "type": "error",
+  "expected": "name_resolution"
+ },
+ {
+  "message": "'string' in namespace 'std' does not name a type",
+  "type": "error",
+  "expected": "name_resolution"
+ },
+ {
+  "message": "'cin' was not declared in this scope",
+  "type": "error",
+  "expected": "name_resolution"
+ },
+ {
+  "message": "conio.h: No such file or directory",
+  "type": "error",
+  "expected": "missing_include"
+ },
+ {
+  "message": "bits/stdc++.h: No such file or directory",
+  "type": "error",
+  "expected": "missing_include"
+ },
+ {
+  "message": "cannot convert 'const char*' to 'int' in initialization",
+  "type": "error",
+  "expected": "type_error"
+ },
+ {
+  "message": "invalid conversion from 'const char*' to 'char*' [-fpermissive]",
+  "type": "error",
+  "expected": "type_error"
+ },
+ {
+  "message": "no match for 'operator+' (operand types are 'std::string' and 'int*')",
+  "type": "error",
+  "expected": "type_error"
+ },
+ {
+  "message": "no matching function for call to 'foo(int, int)'",
+  "type": "error",
+  "expected": "type_error"
+ },
+ {
+  "message": "invalid operands of types 'const char [4]' and 'int' to binary 'operator+'",
+  "type": "error",
+  "expected": "type_error"
+ },
+ {
+  "message": "'x' cannot be used as a function",
+  "type": "error",
+  "expected": "type_error"
+ },
+ {
+  "message": "void value not ignored as it ought to be",
+  "type": "error",
+  "expected": "type_error"
+ },
+ {
+  "message": "lvalue required as left operand of assignment",
+  "type": "error",
+  "expected": "type_error"
+ },
+ {
+  "message": "too many arguments to function 'int f(int)'",
+  "type": "error",
+  "expected": "type_error"
+ },
+ {
+  "message": "invalid use of void expression",
+  "type": "error",
+  "expected": "type_error"
+ },
+ {
+  "message": "call of overloaded 'max(int, double)' is ambiguous",
+  "type": "error",
+  "expected": "type_error"
+ },
+ {
+  "message": "narrowing conversion of '3.5e+0' from 'double' to 'int' [-Wnarrowing]",
+  "type": "error",
+  "expected": "type_error"
+ },
+ {
+  "message": "no match for 'operator<' (operand types are 'S' and 'S')",
+  "type": "error",
+  "expected": "type_error"
+ },
+ {
+  "message": "redefinition of 'int main()'",
+  "type": "error",
+  "expected": "redefinition"
+ },
+ {
+  "message": "redeclaration of 'int total'",
+  "type": "error",
+  "expected": "redefinition"
+ },
+ {
+  "message": "conflicting declaration 'double x'",
+  "type": "error",
+  "expected": "redefinition"
+ },
+ {
+  "message": "'int Foo::secret' is private within this context",
+  "type": "error",
+  "expected": "access_error"
+ },
+ {
+  "message": "assignment of read-only variable 'MAX'",
+  "type": "error",
+  "expected": "access_error"
+ },
+ {
+  "message": "passing 'const Foo' as 'this' argument discards qualifiers [-fpermissive]",
+  "type": "error",
+  "expected": "access_error"
+ },
+ {
+  "message": "increment of read-only location 'p'",
+  "type": "error",
+  "expected": "access_error"
+ },
+ {
+  "message": "'int Foo::v' is protected within this context",
+  "type": "error",
+  "expected": "access_error"
+ },
+ {
+  "message": "no return statement in function returning non-void [-Wreturn-type]",
+  "type": "warning",
+  "expected": "return_type_error"
+ },
+ {
+  "message": "control reaches end of non-void function [-Wreturn-type]",
+  "type": "warning",
+  "expected": "return_type_error"
+ },
+ {
+  "message": "return-statement with no value, in function returning 'int' [-fpermissive]",
+  "type": "error",
+  "expected": "return_type_error"
+ },
+ {
+  "message": "'::main' must return 'int'",
+  "type": "error",
+  "expected": "return_type_error"
+ },
+ {
+  "message": "ISO C++ forbids declaration of 'main' with no type [-Wreturn-type]",
+  "type": "error",
+  "expected": "return_type_error"
+ },
+ {
+  "message": "break statement not within loop or switch",
+  "type": "error",
+  "expected": "control_flow_error"
+ },
+ {
+  "message": "continue statement not within a loop",
+  "type": "error",
+  "expected": "control_flow_error"
+ },
+ {
+  "message": "undefined reference to `helper(int)'",
+  "type": "error",
+  "expected": "linker_error"
+ },
+ {
+  "message": "multiple definition of `compute()'",
+  "type": "error",
+  "expected": "linker_error"
+ },
+ {
+  "message": "linker: cannot find -lmath",
+  "type": "error",
+  "expected": "linker_error"
+ },
+ {
+  "message": "ld returned 1 exit status",
+  "type": "error",
+  "expected": "linker_error"
+ },
+ {
+  "message": "array subscript 10 is above array bounds of 'int [10]' [-Warray-bounds=]",
+  "type": "warning",
+  "expected": "buffer_overflow"
+ },
+ {
+  "message": "'void* __builtin___memcpy_chk(void*, const void*, long unsigned int, long unsigned int)' forming offset [8, 27] is out of the bounds [0, 8] of object 'b' with type 'char [8]' [-Warray-bounds=]",
+  "type": "warning",
+  "expected": "buffer_overflow"
+ },
+ {
+  "message": "writing 12 bytes into a region of size 4 [-Wstringop-overflow=]",
+  "type": "warning",
+  "expected": "buffer_overflow"
+ },
+ {
+  "message": "'char* __builtin_strncpy(char*, const char*, long unsigned int)' output truncated copying 4 bytes from a string of length 8 [-Wstringop-truncation]",
+  "type": "warning",
+  "expected": "string_truncation"
+ },
+ {
+  "message": "'%s' directive writing up to 63 bytes into a region of size 16 [-Wformat-overflow=]",
+  "type": "warning",
+  "expected": "buffer_overflow"
+ },
+ {
+  "message": "format not a string literal and no format arguments [-Wformat-security]",
+  "type": "warning",
+  "expected": "format_string"
+ },
+ {
+  "message": "format not a string literal, argument types not checked [-Wformat-nonliteral]",
+  "type": "warning",
+  "expected": "format_string"
+ },
+ {
+  "message": "null pointer dereference [-Wnull-dereference]",
+  "type": "warning",
+  "expected": "null_dereference"
+ },
+ {
+  "message": "argument 1 null where non-null expected [-Wnonnull]",
+  "type": "warning",
+  "expected": "null_dereference"
+ },
+ {
+  "message": "pointer 'p' used after 'void operator delete(void*, std::size_t)' [-Wuse-after-free]",
+  "type": "warning",
+  "expected": "use_after_free"
+ },
+ {
+  "message": "pointer 'q' used after 'void free(void*)' [-Wuse-after-free]",
+  "type": "warning",
+  "expected": "use_after_free"
+ },
+ {
+  "message": "'void operator delete(void*, std::size_t)' called on pointer returned from a mismatched allocation function [-Wmismatched-new-delete]",
+  "type": "warning",
+  "expected": "memory_mismatch"
+ },
+ {
+  "message": "'void free(void*)' called on a pointer to an unallocated object [-Wfree-nonheap-object]",
+  "type": "warning",
+  "expected": "memory_mismatch"
+ },
+ {
+  "message": "address of local variable 'buf' returned [-Wreturn-local-addr]",
+  "type": "warning",
+  "expected": "dangling_pointer"
+ },
+ {
+  "message": "storing the address of local variable 'x' in '*out' [-Wdangling-pointer=]",
+  "type": "warning",
+  "expected": "dangling_pointer"
+ },
+ {
+  "message": "'v' may be used uninitialized [-Wmaybe-uninitialized]",
+  "type": "warning",
+  "expected": "uninitialized_memory"
+ },
+ {
+  "message": "'count' is used uninitialized [-Wuninitialized]",
+  "type": "warning",
+  "expected": "uninitialized_memory"
+ },
+ {
+  "message": "integer overflow in expression of type 'int' results in '-2147483648' [-Woverflow]",
+  "type": "warning",
+  "expected": "integer_overflow"
+ },
+ {
+  "message": "argument 1 value '-1' is negative [-Walloc-size-larger-than=]",
+  "type": "warning",
+  "expected": "integer_overflow"
+ },
+ {
+  "message": "division by zero [-Wdiv-by-zero]",
+  "type": "warning",
+  "expected": "division_by_zero"
+ },
+ {
+  "message": "comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]",
+  "type": "warning",
+  "expected": "sign_conversion"
+ },
+ {
+  "message": "conversion to 'size_t' {aka 'long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]",
+  "type": "warning",
+  "expected": "sign_conversion"
+ },
+ {
+  "message": "conversion from 'double' to 'int' may change value [-Wfloat-conversion]",
+  "type": "warning",
+  "expected": "narrowing_conversion"
+ },
+ {
+  "message": "conversion from 'long int' to 'int' may change value [-Wconversion]",
+  "type": "warning",
+  "expected": "narrowing_conversion"
+ },
+ {
+  "message": "ignoring return value of 'int scanf(const char*, ...)' declared with attribute 'warn_unused_result' [-Wunused-result]",
+  "type": "warning",
+  "expected": "unchecked_return"
+ },
+ {
+  "message": "'char* gets(char*)' is deprecated [-Wdeprecated-declarations]",
+  "type": "warning",
+  "expected": "insecure_function"
+ },
+ {
+  "message": "cast from type 'const char*' to type 'char*' casts away qualifiers [-Wcast-qual]",
+  "type": "warning",
+  "expected": "cast_safety"
+ },
+ {
+  "message": "cast from 'char*' to 'int*' increases required alignment of target type [-Wcast-align]",
+  "type": "warning",
+  "expected": "cast_safety"
+ },
+ {
+  "message": "iteration 10 invokes undefined behavior [-Waggressive-loop-optimizations]",
+  "type": "warning",
+  "expected": "buffer_overflow"
+ },
+ {
+  "message": "variable length array 'a' is used [-Wvla]",
+  "type": "warning",
+  "expected": "buffer_overflow"
+ },
+ {
+  "message": "suggest parentheses around assignment used as truth value [-Wparentheses]",
+  "type": "warning",
+  "expected": "logic_error"
+ },
+ {
+  "message": "this 'if' clause does not guard... [-Wmisleading-indentation]",
+  "type": "warning",
+  "expected": "logic_error"
+ },
+ {
+  "message": "the comparison will always evaluate as 'true' for the address of 'x' will never be NULL [-Waddress]",
+  "type": "warning",
+  "expected": "logic_error"
+ },
+ {
+  "message": "this condition has identical branches [-Wduplicated-branches]",
+  "type": "warning",
+  "expected": "logic_error"
+ },
+ {
+  "message": "this statement may fall through [-Wimplicit-fallthrough=]",
+  "type": "warning",
+  "expected": "implicit_fallthrough"
+ },
+ {
+  "message": "unused variable 'tmp' [-Wunused-variable]",
+  "type": "warning",
+  "expected": "unused_variable"
+ },
+ {
+  "message": "variable 'r' set but not used [-Wunused-but-set-variable]",
+  "type": "warning",
+  "expected": "unused_variable"
+ },
+ {
+  "message": "unused parameter 'argv' [-Wunused-parameter]",
+  "type": "warning",
+  "expected": "unused_variable"
+ },
+ {
+  "message": "declaration of 'i' shadows a previous local [-Wshadow]",
+  "type": "warning",
+  "expected": "shadowing"
+ },
+ {
+  "message": "moving a local object in a return statement prevents copy elision [-Wpessimizing-move]",
+  "type": "warning",
+  "expected": "performance"
+ },
+ {
+  "message": "loop variable 'item' creates a copy from type 'const std::string' [-Wrange-loop-construct]",
+  "type": "warning",
+  "expected": "performance"
+ },
+ {
+  "message": "ISO C++ forbids variable length array 'a' [-Wvla]",
+  "type": "warning",
+  "expected": "buffer_overflow"
+ },
+ {
+  "message": "extra ';' [-Wpedantic]",
+  "type": "warning",
+  "expected": "style_warning"
+ },
+ {
+  "message": "use of undeclared identifier 'foo'",
+  "type": "error",
+  "expected": "name_resolution"
+ },
+ {
+  "message": "expected ';' after expression",
+  "type": "error",
+  "expected": "syntax_error"
+ },
+ {
+  "message": "expected ';' at end of declaration",
+  "type": "error",
+  "expected": "syntax_error"
+ },
+ {
+  "message": "no matching function for call to 'bar'",
+  "type": "error",
+  "expected": "type_error"
+ },
+ {
+  "message": "'stdio.hh' file not found",
+  "type": "error",
+  "expected": "missing_include"
+ },
+ {
+  "message": "variable 'n' is uninitialized when used here [-Wuninitialized]",
+  "type": "warning",
+  "expected": "uninitialized_memory"
+ },
+ {
+  "message": "format string is not a string literal (potentially insecure) [-Wformat-security]",
+  "type": "warning",
+  "expected": "format_string"
+ },
+ {
+  "message": "array index 12 is past the end of the array (which contains 10 elements) [-Warray-bounds]",
+  "type": "warning",
+  "expected": "buffer_overflow"
+ },
+ {
+  "message": "implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]",
+  "type": "warning",
+  "expected": "narrowing_conversion"
+ },
+ {
+  "message": "unused variable 'k' [-Wunused-variable]",
+  "type": "warning",
+  "expected": "unused_variable"
+ },
+ {
+  "message": "cannot assign to variable 'c' with const-qualified type 'const int'",
+  "type": "error",
+  "expected": "access_error"
+ },
+ {
+  "message": "non-void function 'f' should return a value [-Wreturn-type]",
+  "type": "error",
+  "expected": "return_type_error"
+ },
+ {
+  "message": "reference to stack memory associated with local variable 'x' returned [-Wreturn-stack-address]",
+  "type": "warning",
+  "expected": "dangling_pointer"
+ },
+ {
+  "message": "'break' statement not in loop or switch statement",
+  "type": "error",
+  "expected": "control_flow_error"
+ }
+]
